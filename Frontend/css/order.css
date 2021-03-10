@@ -54,3 +54,8 @@
     font-size: 1rem;
     color: gray;
 }
+
+.Card:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
