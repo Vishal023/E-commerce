@@ -3,7 +3,7 @@
 @include ('./pages/header.php');
 
 
-@include ('./pages/order.php');
+@include ('./pages/search.php');
 
 
 @include ('./pages/footer.php');

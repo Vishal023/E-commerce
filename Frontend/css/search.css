@@ -1,0 +1,44 @@
+.Search{
+    padding: 20px;
+    background-color: #b0b0b0;
+}
+.Search .Left{
+    flex: 1;
+    display: block;
+    background-color: #f3f4f5;
+    border-radius: 3px;
+    margin: 10px;
+}
+.Filter{
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+.Filter div{
+    width: 100%;
+    padding: 5px;
+}
+.Filter .Head h3{
+    background-color: #2874f0;
+    padding: 10px;
+    color: #eeeeee;
+    letter-spacing: 2px;
+    border-radius: 3px;
+}
+.Filter .Category h3{
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+.Search aside:nth-child(2){
+    flex-grow:  1;
+}
+.Search .d4{
+    flex: 1;
+}
+.Search .d4 div{
+    width: 100%;
+}
+.Search button{
+    min-width: 100px;
+    margin-bottom: 2px;
+}
