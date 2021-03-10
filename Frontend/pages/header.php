@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/order.css">
 
     <script src="https://kit.fontawesome.com/c794455c4b.js" crossorigin="anonymous"></script>
 
