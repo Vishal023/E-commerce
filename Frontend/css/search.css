@@ -3,11 +3,17 @@
     background-color: #b0b0b0;
 }
 .Search .Left{
-    flex: 1;
-    display: block;
     background-color: #f3f4f5;
     border-radius: 3px;
     margin: 10px;
+}
+.Search .Result .Card{
+    min-width: 250px;
+    flex: 1;
+}
+.Result .Card-img img{
+    all: revert;
+    width: 100%;
 }
 .Filter{
     padding: 10px;
@@ -41,4 +47,14 @@
 .Search button{
     min-width: 100px;
     margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Search{
+        flex-direction: column;
+    }
+    .Left .Filter, .Category{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

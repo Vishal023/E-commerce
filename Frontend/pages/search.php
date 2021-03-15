@@ -62,8 +62,8 @@ $bought = [
 ];
 ?>
 
-<section class="Search flex wrap jc-c">
-    <aside class="Left">
+<section class="Search flex">
+    <aside class="Left flex">
         <div class="Filter flex flex-col">
             <div class="Head">
                 <h3>Filters</h3>
@@ -93,11 +93,11 @@ $bought = [
             </div>
         </div>
     </aside>
-    <aside class="Result flex flex-col">
+    <aside class="Result flex wrap">
         <?php
         foreach ($bought as $item) {
             ?>
-            <div class="Card flex jc-c wrap">
+            <div class="Card flex flex-col">
                 <div class="Card-sub d1 flex">
                     <div class="Card-img">
                         <img src="./assets/img/watch.jfif" alt="">
