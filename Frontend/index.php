@@ -4,7 +4,7 @@
 
 @include ('./pages/nav.php');
 
-@include ('./pages/search.php');
+@include ('./pages/login.php');
 
 
 @include ('./pages/footer.php');
